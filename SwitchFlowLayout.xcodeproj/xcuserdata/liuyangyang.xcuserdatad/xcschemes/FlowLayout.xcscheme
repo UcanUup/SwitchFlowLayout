@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B4DDAF751D532D02007AC765"
-               BuildableName = "FlowLayout.app"
-               BlueprintName = "FlowLayout"
-               ReferencedContainer = "container:FlowLayout.xcodeproj">
+               BuildableName = "SwitchFlowLayout.app"
+               BlueprintName = "SwitchFlowLayout"
+               ReferencedContainer = "container:SwitchFlowLayout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B4DDAF8E1D532D03007AC765"
-               BuildableName = "FlowLayoutTests.xctest"
-               BlueprintName = "FlowLayoutTests"
-               ReferencedContainer = "container:FlowLayout.xcodeproj">
+               BuildableName = "SwitchFlowLayout.xctest"
+               BlueprintName = "SwitchFlowLayoutTests"
+               ReferencedContainer = "container:SwitchFlowLayout.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B4DDAF991D532D03007AC765"
-               BuildableName = "FlowLayoutUITests.xctest"
-               BlueprintName = "FlowLayoutUITests"
-               ReferencedContainer = "container:FlowLayout.xcodeproj">
+               BuildableName = "SwitchFlowLayout.xctest"
+               BlueprintName = "SwitchFlowLayoutUITests"
+               ReferencedContainer = "container:SwitchFlowLayout.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B4DDAF751D532D02007AC765"
-            BuildableName = "FlowLayout.app"
-            BlueprintName = "FlowLayout"
-            ReferencedContainer = "container:FlowLayout.xcodeproj">
+            BuildableName = "SwitchFlowLayout.app"
+            BlueprintName = "SwitchFlowLayout"
+            ReferencedContainer = "container:SwitchFlowLayout.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B4DDAF751D532D02007AC765"
-            BuildableName = "FlowLayout.app"
-            BlueprintName = "FlowLayout"
-            ReferencedContainer = "container:FlowLayout.xcodeproj">
+            BuildableName = "SwitchFlowLayout.app"
+            BlueprintName = "SwitchFlowLayout"
+            ReferencedContainer = "container:SwitchFlowLayout.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B4DDAF751D532D02007AC765"
-            BuildableName = "FlowLayout.app"
-            BlueprintName = "FlowLayout"
-            ReferencedContainer = "container:FlowLayout.xcodeproj">
+            BuildableName = "SwitchFlowLayout.app"
+            BlueprintName = "SwitchFlowLayout"
+            ReferencedContainer = "container:SwitchFlowLayout.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -15,6 +15,9 @@
 		B4DDAF891D532D03007AC765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DDAF871D532D03007AC765 /* LaunchScreen.storyboard */; };
 		B4DDAF941D532D03007AC765 /* FlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DDAF931D532D03007AC765 /* FlowLayoutTests.m */; };
 		B4DDAF9F1D532D03007AC765 /* FlowLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DDAF9E1D532D03007AC765 /* FlowLayoutUITests.m */; };
+		B4DDAFAF1D532E38007AC765 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DDAFAD1D532E38007AC765 /* CollectionViewCell.m */; };
+		B4DDAFB01D532E38007AC765 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4DDAFAE1D532E38007AC765 /* CollectionViewCell.xib */; };
+		B4DDAFB31D533295007AC765 /* CollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DDAFB21D533295007AC765 /* CollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B4DDAF761D532D02007AC765 /* FlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DDAF761D532D02007AC765 /* SwitchFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DDAF7A1D532D02007AC765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4DDAF7C1D532D02007AC765 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4DDAF7D1D532D02007AC765 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +48,17 @@
 		B4DDAF851D532D03007AC765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4DDAF881D532D03007AC765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4DDAF8A1D532D03007AC765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4DDAF8F1D532D03007AC765 /* FlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DDAF8F1D532D03007AC765 /* SwitchFlowLayout.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchFlowLayout.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DDAF931D532D03007AC765 /* FlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowLayoutTests.m; sourceTree = "<group>"; };
 		B4DDAF951D532D03007AC765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4DDAF9A1D532D03007AC765 /* FlowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DDAF9A1D532D03007AC765 /* SwitchFlowLayout.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchFlowLayout.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DDAF9E1D532D03007AC765 /* FlowLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowLayoutUITests.m; sourceTree = "<group>"; };
 		B4DDAFA01D532D03007AC765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DDAFAC1D532E38007AC765 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		B4DDAFAD1D532E38007AC765 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		B4DDAFAE1D532E38007AC765 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		B4DDAFB11D533295007AC765 /* CollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		B4DDAFB21D533295007AC765 /* CollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +99,9 @@
 		B4DDAF771D532D02007AC765 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4DDAF761D532D02007AC765 /* FlowLayout.app */,
-				B4DDAF8F1D532D03007AC765 /* FlowLayoutTests.xctest */,
-				B4DDAF9A1D532D03007AC765 /* FlowLayoutUITests.xctest */,
+				B4DDAF761D532D02007AC765 /* SwitchFlowLayout.app */,
+				B4DDAF8F1D532D03007AC765 /* SwitchFlowLayout.xctest */,
+				B4DDAF9A1D532D03007AC765 /* SwitchFlowLayout.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +113,11 @@
 				B4DDAF7D1D532D02007AC765 /* AppDelegate.m */,
 				B4DDAF7F1D532D02007AC765 /* ViewController.h */,
 				B4DDAF801D532D02007AC765 /* ViewController.m */,
+				B4DDAFAC1D532E38007AC765 /* CollectionViewCell.h */,
+				B4DDAFAD1D532E38007AC765 /* CollectionViewCell.m */,
+				B4DDAFAE1D532E38007AC765 /* CollectionViewCell.xib */,
+				B4DDAFB11D533295007AC765 /* CollectionViewFlowLayout.h */,
+				B4DDAFB21D533295007AC765 /* CollectionViewFlowLayout.m */,
 				B4DDAF821D532D02007AC765 /* Main.storyboard */,
 				B4DDAF851D532D03007AC765 /* Assets.xcassets */,
 				B4DDAF871D532D03007AC765 /* LaunchScreen.storyboard */,
@@ -143,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4DDAF751D532D02007AC765 /* FlowLayout */ = {
+		B4DDAF751D532D02007AC765 /* SwitchFlowLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4DDAFA31D532D03007AC765 /* Build configuration list for PBXNativeTarget "FlowLayout" */;
+			buildConfigurationList = B4DDAFA31D532D03007AC765 /* Build configuration list for PBXNativeTarget "SwitchFlowLayout" */;
 			buildPhases = (
 				B4DDAF721D532D02007AC765 /* Sources */,
 				B4DDAF731D532D02007AC765 /* Frameworks */,
@@ -155,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = FlowLayout;
+			name = SwitchFlowLayout;
 			productName = FlowLayout;
-			productReference = B4DDAF761D532D02007AC765 /* FlowLayout.app */;
+			productReference = B4DDAF761D532D02007AC765 /* SwitchFlowLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4DDAF8E1D532D03007AC765 /* FlowLayoutTests */ = {
+		B4DDAF8E1D532D03007AC765 /* SwitchFlowLayoutTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4DDAFA61D532D03007AC765 /* Build configuration list for PBXNativeTarget "FlowLayoutTests" */;
+			buildConfigurationList = B4DDAFA61D532D03007AC765 /* Build configuration list for PBXNativeTarget "SwitchFlowLayoutTests" */;
 			buildPhases = (
 				B4DDAF8B1D532D03007AC765 /* Sources */,
 				B4DDAF8C1D532D03007AC765 /* Frameworks */,
@@ -173,14 +186,14 @@
 			dependencies = (
 				B4DDAF911D532D03007AC765 /* PBXTargetDependency */,
 			);
-			name = FlowLayoutTests;
+			name = SwitchFlowLayoutTests;
 			productName = FlowLayoutTests;
-			productReference = B4DDAF8F1D532D03007AC765 /* FlowLayoutTests.xctest */;
+			productReference = B4DDAF8F1D532D03007AC765 /* SwitchFlowLayout.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B4DDAF991D532D03007AC765 /* FlowLayoutUITests */ = {
+		B4DDAF991D532D03007AC765 /* SwitchFlowLayoutUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4DDAFA91D532D03007AC765 /* Build configuration list for PBXNativeTarget "FlowLayoutUITests" */;
+			buildConfigurationList = B4DDAFA91D532D03007AC765 /* Build configuration list for PBXNativeTarget "SwitchFlowLayoutUITests" */;
 			buildPhases = (
 				B4DDAF961D532D03007AC765 /* Sources */,
 				B4DDAF971D532D03007AC765 /* Frameworks */,
@@ -191,9 +204,9 @@
 			dependencies = (
 				B4DDAF9C1D532D03007AC765 /* PBXTargetDependency */,
 			);
-			name = FlowLayoutUITests;
+			name = SwitchFlowLayoutUITests;
 			productName = FlowLayoutUITests;
-			productReference = B4DDAF9A1D532D03007AC765 /* FlowLayoutUITests.xctest */;
+			productReference = B4DDAF9A1D532D03007AC765 /* SwitchFlowLayout.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +216,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "刘洋洋";
+				ORGANIZATIONNAME = Young;
 				TargetAttributes = {
 					B4DDAF751D532D02007AC765 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -221,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B4DDAF711D532D02007AC765 /* Build configuration list for PBXProject "FlowLayout" */;
+			buildConfigurationList = B4DDAF711D532D02007AC765 /* Build configuration list for PBXProject "SwitchFlowLayout" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4DDAF751D532D02007AC765 /* FlowLayout */,
-				B4DDAF8E1D532D03007AC765 /* FlowLayoutTests */,
-				B4DDAF991D532D03007AC765 /* FlowLayoutUITests */,
+				B4DDAF751D532D02007AC765 /* SwitchFlowLayout */,
+				B4DDAF8E1D532D03007AC765 /* SwitchFlowLayoutTests */,
+				B4DDAF991D532D03007AC765 /* SwitchFlowLayoutUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,6 +261,7 @@
 			files = (
 				B4DDAF891D532D03007AC765 /* LaunchScreen.storyboard in Resources */,
 				B4DDAF861D532D03007AC765 /* Assets.xcassets in Resources */,
+				B4DDAFB01D532E38007AC765 /* CollectionViewCell.xib in Resources */,
 				B4DDAF841D532D02007AC765 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +289,8 @@
 			files = (
 				B4DDAF811D532D02007AC765 /* ViewController.m in Sources */,
 				B4DDAF7E1D532D02007AC765 /* AppDelegate.m in Sources */,
+				B4DDAFB31D533295007AC765 /* CollectionViewFlowLayout.m in Sources */,
+				B4DDAFAF1D532E38007AC765 /* CollectionViewCell.m in Sources */,
 				B4DDAF7B1D532D02007AC765 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,12 +316,12 @@
 /* Begin PBXTargetDependency section */
 		B4DDAF911D532D03007AC765 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4DDAF751D532D02007AC765 /* FlowLayout */;
+			target = B4DDAF751D532D02007AC765 /* SwitchFlowLayout */;
 			targetProxy = B4DDAF901D532D03007AC765 /* PBXContainerItemProxy */;
 		};
 		B4DDAF9C1D532D03007AC765 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4DDAF751D532D02007AC765 /* FlowLayout */;
+			target = B4DDAF751D532D02007AC765 /* SwitchFlowLayout */;
 			targetProxy = B4DDAF9B1D532D03007AC765 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -418,10 +434,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlowLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liuyy.FlowLayout;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.young.FlowLayout;
+				PRODUCT_NAME = SwitchFlowLayout;
 			};
 			name = Debug;
 		};
@@ -429,10 +446,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlowLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liuyy.FlowLayout;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.young.FlowLayout;
+				PRODUCT_NAME = SwitchFlowLayout;
 			};
 			name = Release;
 		};
@@ -443,8 +461,8 @@
 				INFOPLIST_FILE = FlowLayoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liuyy.FlowLayoutTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowLayout.app/FlowLayout";
+				PRODUCT_NAME = SwitchFlowLayout;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchFlowLayout.app/SwitchFlowLayout";
 			};
 			name = Debug;
 		};
@@ -455,8 +473,8 @@
 				INFOPLIST_FILE = FlowLayoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liuyy.FlowLayoutTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowLayout.app/FlowLayout";
+				PRODUCT_NAME = SwitchFlowLayout;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchFlowLayout.app/SwitchFlowLayout";
 			};
 			name = Release;
 		};
@@ -466,7 +484,7 @@
 				INFOPLIST_FILE = FlowLayoutUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liuyy.FlowLayoutUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwitchFlowLayout;
 				TEST_TARGET_NAME = FlowLayout;
 			};
 			name = Debug;
@@ -477,7 +495,7 @@
 				INFOPLIST_FILE = FlowLayoutUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liuyy.FlowLayoutUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwitchFlowLayout;
 				TEST_TARGET_NAME = FlowLayout;
 			};
 			name = Release;
@@ -485,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4DDAF711D532D02007AC765 /* Build configuration list for PBXProject "FlowLayout" */ = {
+		B4DDAF711D532D02007AC765 /* Build configuration list for PBXProject "SwitchFlowLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4DDAFA11D532D03007AC765 /* Debug */,
@@ -494,29 +512,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4DDAFA31D532D03007AC765 /* Build configuration list for PBXNativeTarget "FlowLayout" */ = {
+		B4DDAFA31D532D03007AC765 /* Build configuration list for PBXNativeTarget "SwitchFlowLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4DDAFA41D532D03007AC765 /* Debug */,
 				B4DDAFA51D532D03007AC765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B4DDAFA61D532D03007AC765 /* Build configuration list for PBXNativeTarget "FlowLayoutTests" */ = {
+		B4DDAFA61D532D03007AC765 /* Build configuration list for PBXNativeTarget "SwitchFlowLayoutTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4DDAFA71D532D03007AC765 /* Debug */,
 				B4DDAFA81D532D03007AC765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B4DDAFA91D532D03007AC765 /* Build configuration list for PBXNativeTarget "FlowLayoutUITests" */ = {
+		B4DDAFA91D532D03007AC765 /* Build configuration list for PBXNativeTarget "SwitchFlowLayoutUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4DDAFAA1D532D03007AC765 /* Debug */,
 				B4DDAFAB1D532D03007AC765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

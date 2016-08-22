@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CollectionViewCell.h
 //  FlowLayout
 //
 //  Created by Young on 16/8/4.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface CollectionViewCell : UICollectionViewCell
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
-
